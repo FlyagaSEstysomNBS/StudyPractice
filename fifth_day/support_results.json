@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-11-20T12:29:05.349962",
+    "review": "Отличный товар",
+    "sentiment": "POSITIVE",
+    "score": 0.978,
+    "final_sec": 1.0793
+  },
+  {
+    "timestamp": "2026-11-20T12:29:05.566811",
+    "review": "Ужасное качество",
+    "sentiment": "NEGATIVE",
+    "score": 0.919,
+    "final_sec": 0.2168
+  }
+]

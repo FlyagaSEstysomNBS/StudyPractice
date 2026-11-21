@@ -1,0 +1,265 @@
+2026-11-21 14:12:32,990 [INFO] Запуск функции "process_catalog"...
+2026-11-21 14:12:32,990 [INFO] Запуск функции "load_and_filter_csv"...
+2026-11-21 14:12:33,004 [INFO] Функция "load_and_filter_csv" успешно завершена за 0.01 секунд
+2026-11-21 14:12:33,091 [INFO] Начинаем перевод 10 карточек на язык: English
+2026-11-21 14:13:05,230 [INFO] Retrying request in 0.445507 seconds (retry 1 of 2)
+2026-11-21 14:13:33,670 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:33,676 [INFO] [1/10] Переведено: Беспроводные наушники Sony WH-1000XM5...
+2026-11-21 14:13:34,663 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:34,664 [INFO] [2/10] Переведено: Механическая клавиатура Keychron K2...
+2026-11-21 14:13:35,649 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:35,650 [INFO] [3/10] Переведено: Умная колонка Яндекс Станция Мини...
+2026-11-21 14:13:36,808 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:36,809 [INFO] [4/10] Переведено: Термокружка Stanley Classic 0.47 л...
+2026-11-21 14:13:38,070 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:38,071 [INFO] [5/10] Переведено: Рюкзак для ноутбука XD Design Bobby...
+2026-11-21 14:13:39,043 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:39,044 [INFO] [6/10] Переведено: Кофемашина De'Longhi Magnifica S...
+2026-11-21 14:13:40,107 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:40,108 [INFO] [7/10] Переведено: Игровая мышь Logitech G Pro X Superlight...
+2026-11-21 14:13:41,436 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:41,437 [INFO] [8/10] Переведено: Увлажнитель воздуха Xiaomi Smart Humidif...
+2026-11-21 14:13:42,681 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:42,682 [INFO] [9/10] Переведено: Внешний аккумулятор Anker PowerCore 2000...
+2026-11-21 14:13:43,611 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:13:43,612 [INFO] [10/10] Переведено: Настольная лампа Yeelight LED Folding La...
+2026-11-21 14:13:43,613 [INFO] Запуск функции "save_csv"...
+2026-11-21 14:13:43,617 [INFO] Файл успешно сохранён: output.csv (строк: 10)
+2026-11-21 14:13:43,617 [INFO] Функция "save_csv" успешно завершена за 0.00 секунд
+2026-11-21 14:13:43,617 [INFO] Функция "process_catalog" успешно завершена за 70.63 секунд
+2026-11-21 14:27:08,189 [INFO] Запуск функции "process_catalog"...
+2026-11-21 14:27:08,189 [INFO] Запуск функции "load_and_filter_csv"...
+2026-11-21 14:27:08,190 [WARNING] Передан абсолютно пустой файл
+2026-11-21 14:27:08,190 [INFO] Функция "load_and_filter_csv" успешно завершена за 0.00 секунд
+2026-11-21 14:27:08,191 [WARNING] Обработка остановлена: файл не содержит данных для перевода
+2026-11-21 14:27:08,191 [INFO] Функция "process_catalog" успешно завершена за 0.00 секунд
+2026-11-21 14:32:38,020 [INFO] Запуск функции "process_catalog"...
+2026-11-21 14:32:38,020 [INFO] Запуск функции "load_and_filter_csv"...
+2026-11-21 14:32:38,021 [WARNING] Передан абсолютно пустой файл
+2026-11-21 14:32:38,022 [INFO] Функция "load_and_filter_csv" успешно завершена за 0.00 секунд
+2026-11-21 14:32:38,022 [WARNING] Обработка остановлена: файл не содержит данных для перевода
+2026-11-21 14:32:38,022 [INFO] Функция "process_catalog" успешно завершена за 0.00 секунд
+2026-11-21 14:33:08,803 [INFO] Запуск функции "process_catalog"...
+2026-11-21 14:33:08,804 [INFO] Запуск функции "load_and_filter_csv"...
+2026-11-21 14:33:08,807 [INFO] Функция "load_and_filter_csv" успешно завершена за 0.00 секунд
+2026-11-21 14:33:08,878 [INFO] Начинаем перевод 10 карточек на язык: English
+2026-11-21 14:33:09,131 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:09,214 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:11,567 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:11,655 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:13,746 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:13,834 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:13,869 [ERROR] [1/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:33:14,423 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:14,512 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:16,601 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:16,688 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:18,804 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:18,900 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:18,954 [ERROR] [2/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:33:19,509 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:19,656 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:21,711 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:21,826 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:23,909 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:24,049 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:24,106 [ERROR] [3/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:33:24,661 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:25,110 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:27,167 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:27,456 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:29,537 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:29,678 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:29,679 [ERROR] [4/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:33:30,237 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:30,701 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:33,033 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:33,178 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:35,258 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:35,552 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:35,553 [ERROR] [5/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:33:36,105 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:36,281 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:38,335 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:38,516 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:40,606 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:41,084 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:41,085 [ERROR] [6/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:33:41,680 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:41,891 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:43,956 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:44,142 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:46,218 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:46,332 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:46,356 [ERROR] [7/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:33:46,954 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:47,106 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:49,160 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:49,354 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:51,692 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:51,814 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:51,874 [ERROR] [8/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:33:52,429 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:52,856 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:55,208 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:55,384 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:57,456 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:57,599 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:33:57,624 [ERROR] [9/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:33:58,185 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:33:58,333 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:34:00,402 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:34:00,562 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:34:02,665 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:34:02,821 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:34:02,826 [ERROR] [10/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:34:02,827 [INFO] Запуск функции "save_csv"...
+2026-11-21 14:34:02,830 [INFO] Файл успешно сохранён: output.csv (строк: 10)
+2026-11-21 14:34:02,830 [INFO] Функция "save_csv" успешно завершена за 0.00 секунд
+2026-11-21 14:34:02,831 [INFO] Функция "process_catalog" успешно завершена за 54.03 секунд
+2026-11-21 14:35:01,251 [INFO] Запуск функции "process_catalog"...
+2026-11-21 14:35:01,251 [INFO] Запуск функции "load_and_filter_csv"...
+2026-11-21 14:35:01,254 [INFO] Функция "load_and_filter_csv" успешно завершена за 0.00 секунд
+2026-11-21 14:35:01,325 [INFO] Начинаем перевод 10 карточек на язык: English
+2026-11-21 14:35:01,523 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:01,591 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:03,624 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:03,716 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:05,749 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:05,824 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:05,829 [ERROR] [1/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:06,371 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:06,442 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:08,477 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:08,536 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:10,573 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:10,645 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:10,646 [ERROR] [2/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:11,175 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:11,239 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:13,269 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:13,342 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:15,388 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:15,458 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:15,460 [ERROR] [3/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:15,997 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:16,087 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:18,119 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:18,202 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:20,231 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:20,298 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:20,299 [ERROR] [4/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:20,839 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:20,994 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:23,028 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:23,148 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:25,183 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:25,253 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:25,253 [ERROR] [5/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:25,784 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:25,852 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:27,887 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:27,966 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:30,010 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:30,077 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:30,078 [ERROR] [6/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:30,613 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:30,673 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:32,705 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:32,766 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:34,801 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:34,881 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:34,882 [ERROR] [7/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:35,415 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:35,479 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:37,514 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:37,584 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:39,619 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:39,690 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:39,692 [ERROR] [8/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:40,222 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:40,307 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:42,346 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:42,410 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:44,446 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:44,512 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:44,513 [ERROR] [9/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:45,051 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:45,119 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:47,158 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:47,242 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:49,274 [INFO] HTTP Request: POST https://openai.com/chat/completions "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 14:35:49,353 [INFO] HTTP Request: POST https://openai.com/chat/completions/ "HTTP/1.1 404 Not Found"
+2026-11-21 14:35:49,354 [ERROR] [10/10] Не удалось перевести карточку после 3 попыток: Error code: 404
+2026-11-21 14:35:49,355 [INFO] Запуск функции "save_csv"...
+2026-11-21 14:35:49,358 [INFO] Файл успешно сохранён: output.csv (строк: 10)
+2026-11-21 14:35:49,359 [INFO] Функция "save_csv" успешно завершена за 0.00 секунд
+2026-11-21 14:35:49,359 [INFO] Функция "process_catalog" успешно завершена за 48.11 секунд
+2026-11-21 14:40:35,539 [INFO] Запуск функции "process_catalog"...
+2026-11-21 14:40:35,539 [INFO] Запуск функции "load_and_filter_csv"...
+2026-11-21 14:40:35,543 [INFO] Функция "load_and_filter_csv" успешно завершена за 0.00 секунд
+2026-11-21 14:40:35,598 [INFO] Начинаем перевод 10 карточек на язык: English
+2026-11-21 14:40:36,124 [INFO] HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-11-21 14:40:36,125 [ERROR] ОШИБКА авторизации: проверьте правильность OLLAMA_API_KEY!
+2026-11-21 14:40:38,414 [INFO] HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-11-21 14:40:38,415 [ERROR] ОШИБКА авторизации: проверьте правильность OLLAMA_API_KEY!
+2026-11-21 14:40:40,705 [INFO] HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-11-21 14:40:40,706 [ERROR] ОШИБКА авторизации: проверьте правильность OLLAMA_API_KEY!
+2026-11-21 14:47:29,020 [INFO] Запуск функции "process_catalog"...
+2026-11-21 14:47:29,021 [INFO] Запуск функции "load_and_filter_csv"...
+2026-11-21 14:47:29,026 [INFO] Функция "load_and_filter_csv" успешно завершена за 0.01 секунд
+2026-11-21 14:47:29,104 [INFO] Начинаем перевод 1000 карточек на язык: English
+2026-11-21 14:47:34,831 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:34,839 [INFO] [1/1000] Переведено: Беспроводные наушники Sony WH-1000XM5...
+2026-11-21 14:47:35,851 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:35,852 [INFO] [2/1000] Переведено: Механическая клавиатура Keychron K2...
+2026-11-21 14:47:36,864 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:36,864 [INFO] [3/1000] Переведено: Умная колонка Яндекс Станция Мини...
+2026-11-21 14:47:38,018 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:38,019 [INFO] [4/1000] Переведено: Термокружка Stanley Classic 0.47 л...
+2026-11-21 14:47:39,365 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:39,366 [INFO] [5/1000] Переведено: Рюкзак для ноутбука XD Design Bobby...
+2026-11-21 14:47:40,407 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:40,408 [INFO] [6/1000] Переведено: Кофемашина De'Longhi Magnifica S...
+2026-11-21 14:47:41,503 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:41,503 [INFO] [7/1000] Переведено: Игровая мышь Logitech G Pro X Superlight...
+2026-11-21 14:47:42,970 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:42,971 [INFO] [8/1000] Переведено: Увлажнитель воздуха Xiaomi Smart Humidif...
+2026-11-21 14:47:44,180 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:44,181 [INFO] [9/1000] Переведено: Внешний аккумулятор Anker PowerCore 2000...
+2026-11-21 14:47:45,122 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:45,123 [INFO] [10/1000] Переведено: Настольная лампа Yeelight LED Folding La...
+2026-11-21 14:47:46,264 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:46,265 [INFO] [11/1000] Переведено: Беспроводные наушники Sony WH-1000XM5...
+2026-11-21 14:47:47,253 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:47,254 [INFO] [12/1000] Переведено: Механическая клавиатура Keychron K2...
+2026-11-21 14:47:48,248 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:48,248 [INFO] [13/1000] Переведено: Умная колонка Яндекс Станция Мини...
+2026-11-21 14:47:49,449 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:49,450 [INFO] [14/1000] Переведено: Термокружка Stanley Classic 0.47 л...
+2026-11-21 14:47:50,801 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:50,802 [INFO] [15/1000] Переведено: Рюкзак для ноутбука XD Design Bobby...
+2026-11-21 14:47:51,811 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:51,812 [INFO] [16/1000] Переведено: Кофемашина De'Longhi Magnifica S...
+2026-11-21 14:47:52,938 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:52,938 [INFO] [17/1000] Переведено: Игровая мышь Logitech G Pro X Superlight...
+2026-11-21 14:47:54,255 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:54,256 [INFO] [18/1000] Переведено: Увлажнитель воздуха Xiaomi Smart Humidif...
+2026-11-21 14:47:55,423 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:55,424 [INFO] [19/1000] Переведено: Внешний аккумулятор Anker PowerCore 2000...
+2026-11-21 14:47:56,384 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:56,385 [INFO] [20/1000] Переведено: Настольная лампа Yeelight LED Folding La...
+2026-11-21 14:47:57,519 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:57,520 [INFO] [21/1000] Переведено: Беспроводные наушники Sony WH-1000XM5...
+2026-11-21 14:47:58,514 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:58,514 [INFO] [22/1000] Переведено: Механическая клавиатура Keychron K2...
+2026-11-21 14:47:59,548 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:47:59,549 [INFO] [23/1000] Переведено: Умная колонка Яндекс Станция Мини...
+2026-11-21 14:48:00,764 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:48:00,766 [INFO] [24/1000] Переведено: Термокружка Stanley Classic 0.47 л...
+2026-11-21 14:48:01,829 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:48:01,830 [INFO] [25/1000] Переведено: Рюкзак для ноутбука XD Design Bobby...
+2026-11-21 14:48:02,822 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:48:02,822 [INFO] [26/1000] Переведено: Кофемашина De'Longhi Magnifica S...
+2026-11-21 14:48:03,895 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-21 14:48:03,896 [INFO] [27/1000] Переведено: Игровая мышь Logitech G Pro X Superlight...
